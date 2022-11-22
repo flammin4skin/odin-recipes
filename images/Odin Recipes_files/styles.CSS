@@ -1,0 +1,142 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+    
+
+    
+  
+    
+}
+.container .box {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: white;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container .box .picone {
+    position: absolute;
+    background-image: url(./images/Mac.webp);
+    background-size: 100% 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    z-index: 1;
+
+}
+.container .box:hover .picone{
+top: 20px;
+left: calc(50% - 40px);
+width: 80px;
+height: 80px;
+border-radius: 50%;
+}
+.container .box .pictwo {
+    position: absolute;
+    background-image: url(./images/beef_cass_img.webp);
+    background-size: 100% 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    z-index: 1;
+
+}
+.container .box:hover .pictwo{
+top: 20px;
+left: calc(50% - 40px);
+width: 80px;
+height: 80px;
+border-radius: 50%;
+}
+.container .box .picthree {
+    position: absolute;
+    background-image: url(./images/brock-cheese.webp);
+    background-size: 100% 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    z-index: 1;
+
+}
+.container .box:hover .picthree{
+top: 20px;
+left: calc(50% - 40px);
+width: 80px;
+height: 80px;
+border-radius: 50%;
+}
+.container .box .content{
+    position: absolute;
+    top: 100%;
+    height: calc(100% -100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+.container .box:hover .content{
+  top: 100px; 
+  opacity: 1;
+
+}
+.container .box .content H3{
+    margin: 0 0 10px;
+    padding: 0;
+    color: black;
+    font-size: 24px;
+
+}
+.container .box .content p{
+    margin: 0;
+    padding: 0;
+    color: black;
+
+}
+.head{
+    position: relative;
+    width: 1200px;
+    height: 200px;
+    margin: 240px auto;
+    background-color: blue;
+}
+
+
+
+.head h1{
+    text-align: center;
+    font-size: 70px;
+}
+.head p{
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+
+}
+.container a{
+    text-decoration: none;
+    color: #000;
+
+}
+.container a:hover{
+    color: darkred;
+}
